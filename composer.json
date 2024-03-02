@@ -1,0 +1,19 @@
+{
+    "name": "ashaduzzamanfaruque/press",
+    "description": "markdown blog for laravel",
+    "license": "Faruque5698",
+    "autoload": {
+        "psr-4": {
+            "Ashaduzzamanfaruque\\Press\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Faruque5698",
+            "email": "ashaduzzaman5698@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "orchestra/testbench": "^8.21"
+    }
+}
