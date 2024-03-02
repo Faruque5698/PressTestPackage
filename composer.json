@@ -7,6 +7,11 @@
             "Ashaduzzamanfaruque\\Press\\": "src/"
         }
     },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
     "authors": [
         {
             "name": "Faruque5698",
@@ -14,6 +19,10 @@
         }
     ],
     "require-dev": {
-        "orchestra/testbench": "^8.21"
+        "orchestra/testbench": "^8.21",
+        "phpunit/phpunit": "^10.5"
+    },
+    "require": {
+        "erusev/parsedown": "^1.7"
     }
 }
